@@ -1,0 +1,57 @@
+body {
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    height: 80%;
+    width: 80%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    height: 80%;
+    width: 80%;
+    background: magenta;
+    position: relative;
+
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circles {
+    height: 150px;
+    width: 150px;
+    background: rgb(135, 135, 199);
+    border-radius: 50%;
+}
+
+.top {
+    top: 0px;
+}
+
+.left {
+    left: 0px;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.right {
+    right: 0;
+}
