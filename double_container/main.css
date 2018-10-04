@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    height: 100px;
+    background: blue;
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background: red;
+    margin: 0 auto;
+}
+
+main {
+    background: green;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+main > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    margin: 0 auto;
+}
