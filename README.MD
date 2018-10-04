@@ -25,11 +25,6 @@
             <li>Site Layout</li>
         </ul>
         <img src='./double_container/doublecontainer.png'>
-    <li>Mentions</li>
-       <ul>
-            <li>CSS reset vs Normalize</li>
-            <li>Box-sizing:border-box</li>
-       </ul>
     <li>Example site</li> 
     <p>This site employs the concepts we learned </p>
     <img src='./example/examplesite.png'>       
